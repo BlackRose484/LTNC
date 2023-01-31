@@ -50,10 +50,10 @@ int main(int argc, char* argv[])
 					q = 1;
 			}
 			//clear render
-
+			SDL_SetRenderDrawColor(g_render, 0, 0, 0,255);
 
 			SDL_RenderClear(g_render);
-			SDL_Rect rect_{ 0,0,400,400 };
+			SDL_Rect rect_{ 0,0,100,100 };
 			SDL_SetRenderDrawColor(g_render,0, 241, 126,255);
 			SDL_RenderFillRect(g_render, &rect_);
 
