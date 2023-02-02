@@ -57,9 +57,9 @@ int main(int argc, char* argv[])
 			SDL_SetRenderDrawColor(g_render,0, 241, 126,255);			
 			SDL_RenderFillRect(g_render, &rect_);
 
-			SDL_Rect rect_1{ 400,0,100,100 };
+			/*SDL_Rect rect_1{ 400,0,100,100 };
 			SDL_SetRenderDrawColor(g_render, 0, 124, 25, 255);
-			SDL_RenderFillRect(g_render, &rect_1);
+			SDL_RenderFillRect(g_render, &rect_1);*/
 
 			
 
